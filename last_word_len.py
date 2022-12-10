@@ -5,7 +5,7 @@ class Solution:
         return len(x) if x else self.lengthOfLastWord(s[:-1])
 
 
-# fast solution
+# faster solution
 '''class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         x = s.split(" ")#.pop()
